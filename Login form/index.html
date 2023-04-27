@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- sgin up Form -->
+    <div class="container signup ">
+      <form class="sing-up">
+        <p>Sign Up</p>
+        <input class="sing-up-username " type="text" placeholder="username" maxlength="15" />
+        <p class="user error"></p>
+        <input class="email" type="text" placeholder="E-mail" />
+        <p class="mail error"></p>
+        <input class="sing-up-password" type="password" placeholder="password" />
+        <p class="pass error"></p>
+        <input class="conf-pass" type="password" placeholder="Confirm password" disabled />
+        <p class="passcon error"></p>
+        <button>Sign Up</button>
+        <div>
+          <p>Have an account ?</p>
+          <a href="">Sgin In</a>
+        </div>
+      </form>
+    </div>
+        <div class="container signin  ">
+        <form class="sign-in">
+        <p>Sign In</p>
+        <input class="sign-in-username" type="text" placeholder="username" />
+        <p class="sign-in-user error"></p>
+        <input class="sign-in-password" type="password" placeholder="password" />
+        <p class="sign-in-pass error"></p>
+        <p class="sign-in-error"></p>
+        <button>Sign in</button>
+        <div>
+          <p>Dont Have an account ?</p>
+          <a href="">Sign Up</a>
+        </div>
+      </form>
+        </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
